@@ -1,0 +1,571 @@
+body {
+ margin : 0;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: lightgrey;
+ line-height: 2.5;
+}
+#header{
+    margin: 0px;
+}
+nav {
+    position: fixed;
+	background-color: whitesmoke;
+  	margin: 0;
+    font-size: 1.5em;
+  	padding: 10px;
+	border: none;
+  	text-align: center;
+    width: 100%;
+}
+#container{
+    width : 75%;
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    height: 100%;
+}
+.page_title{
+    text-decoration: underline;
+}
+#header_title{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(239,19,19);
+    margin-bottom: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
+}
+#banner_img{
+    padding: 70px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    position: static;
+}
+a:link, a:visited {
+    color: darkseagreen;
+    padding: 5px;
+	margin-left: 40px;
+	margin-right: 40px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color: darkgreen;
+}
+
+#top_content{
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#about_content {
+	text-align: center;
+	background-color: whitesmoke;
+	margin-top: 30px;
+	padding: 0px 30px 30px 30px;
+	align-content: center;
+    float: right;
+	width: 70%;
+}
+#apple_logo{
+    width: 15%;
+    margin-left: 2.5em;
+    margin-top: 2.5em;
+    float:left;
+    vertical-align: middle;
+}
+#apple_graphic{
+    width: 100%;
+}
+#map_div{
+    text-align: center;
+}
+#map{
+    width: 100%;
+    max-width: 900px;
+}
+
+#title{
+    text-align: center;
+    border-color:darkseagreen;
+    border-top-style: double;
+    border-bottom-style:ridge;
+    background-color:whitesmoke;
+    color:green;
+    width:100%;
+    font-family:cursive;
+}
+#footer{
+    background-color: whitesmoke;
+    color:black;
+    display: block;
+    font-size: 10px;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/*          index.html ends/ information.html begins              */
+
+#info_title{
+
+    font-size: 2em;
+}
+
+#info_content, #concert_content{
+    font-size: 2em;
+}
+
+#info_content {
+	text-align: center;
+	align-content: center;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+    margin : 20px auto 20px auto;
+	width: 70%;
+}
+
+#times {
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+    margin : 10px auto 10px auto;
+	width: 40%;
+	font-size: .8em;
+}
+
+#concert_content{
+	text-align: center;
+	align-content: center;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+    margin : 20px auto 20px auto;
+	width: 70%;
+}
+
+h2{
+	text-align: center;
+	font-size: 1em;
+	margin:auto;
+}
+#list, p{
+	padding: 20px 10px 0px 10px;
+}
+#list, ul{
+	text-align: center;
+	background-color: whitesmoke;
+	list-style-type: none;
+	align-content: center;
+	padding: 10px 10px 10px 10px;
+    margin : 10px auto 10px auto;
+	font-size: .8em;
+}
+
+
+/*      Transportation Page             */
+
+#trans_container{
+    width : 75%;
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    height: 100%;
+    font-size: 1.4em;
+}
+
+#how_to{
+    text-align: left;
+    font-size: 1.5em;
+} 
+#how_to_cornell, #how_to_ic{
+    font-size: 1.2em;
+    text-align: left;
+}
+
+dl{
+    align-content: center;
+    margin: auto;
+}
+dt{
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+}
+dd{
+    padding: 40px;
+}
+
+#tcat_ic{
+    display: inline-block;
+}
+#ic_bus_info,#ic_map_image{
+    width: 40%;
+    float: left;
+}
+.center_img{
+    text-align: center;
+}
+
+#tcat_link{
+    margin : 0px;
+    padding: 0px;
+}
+#other_transports{
+    font-size: 1em;
+}
+
+/*       Recommendations Page           */
+
+
+#recomm_container{
+    width : 75%;
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    height: 100%;
+}
+
+#recomm_title{
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+#recomm_text{
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+.block {
+	text-align: center;
+	align-content: center;
+	background-color: whitesmoke;
+	padding: 10px;
+	width: 100%;
+    display: inline-block;
+}
+
+.recs {
+	width: 60%;
+    margin: 10px;
+    padding: 2%;
+	font-size: 1.5em;
+    float: left;
+}
+
+.rec_pics {
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 2%;
+    margin : 6% 0% 5% 0%;
+	width: 25%;
+    float: left;
+}
+#candy,#dewitt,#bookstore,#water,#eating,#coffee{
+    width: 100%;
+}
+
+/*                  Photo gallery            */
+
+#pics{
+    text-align: center;
+    padding: .5em 0em 1.5em 0em;
+}
+#button_container{
+    text-align: center;
+}
+
+.gall_button {
+    background-color: #4CAF50; /* Green */
+    margin: 0em 1em 0em 1em;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+#apple_fest_images{
+    max-height: 750px;
+    width: 90%;
+}
+
+/*                       Apples                   */
+
+#descrip{
+    font-size: 1.5em;
+}
+
+.ui-accordion {
+    padding: 45px;
+}
+
+.ui-accordion-header {
+    border: none;
+}
+
+.ui-accordion-header-active {
+    background-color: orangered;
+}
+
+.ui-accordion-content {
+    border: none;   
+}
+.apple_pic {
+    float: left;
+    padding-top: 25px;
+    align-content: center;
+    margin: inherit;
+    width: 20%;
+}
+.apple_descrip {
+    display: block;
+    width: inherit;
+    padding-left: 200px;
+    font-size:30px;
+}
+
+
+
+
+/*responsive to phone and laptop devices*/
+
+@media screen and (max-width:1400px)and (min-width:480px){  
+    /*photo gallery page*/
+    body {
+        margin : 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgrey;
+        line-height: 1.5;
+    }
+    .page_title, #header_title{
+        margin-top: 130px;
+    }
+    #apple_logo{
+        display: none;
+    }
+    #header{
+            margin: 0px;
+    }
+    #banner{
+        display: none;
+    }
+    nav {
+            display:block;
+            background-color: whitesmoke;
+            margin: 0;
+            font-size: 1.3em;
+            padding: 15px 0px 15px 0px;
+            border: none;
+            text-align: center;
+            width: 100%;
+    }
+    .nav_item{
+        padding: 2px 5px 2px 5px;
+        margin: 0;
+    }
+    #container{
+            width : 75%;
+            max-width: 1400px;
+            margin: 0 auto 0 auto;
+            padding: 15px 35px 15px 35px;
+            background-color: white;
+            height: 100%;
+    }
+    #about_content{
+        width: 90%;
+    }
+    .responsive{
+                width:100%;
+                margin: 6px 0;
+    }
+    .rec_pics{
+        display: none;
+        width: 0%;
+    }
+    .recs{
+        width: 90%;
+        font-size: 1em;
+    }
+    #footer{
+        background-color: whitesmoke;
+        color:black;
+        display: inline-block;
+        font-size: 10px;
+        margin: auto;
+        padding: 7px 0;
+        text-align: center;
+        width: 100%;
+    }
+    #b1,#b2,#b3,#b4{
+        padding: 0px 10px 0px 10px;
+        margin: 0px;
+    }
+    .footer_icon{
+        width: 75%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .center_img, #ic_map_image{
+        display: none;
+    }
+    #ic_bus_info{
+        width: 90%;
+    }
+    .apple_pic {
+    float: left;
+    display: none;    
+}
+    .apple_descrip {
+    display: block;
+    width: inherit;
+    padding-left: 0px;
+    font-size:30px;
+    font-size: 1em;
+    }
+    #descrip{
+        font-size: 1em;
+    }
+}
+    
+@media screen and (min-width: 0px)and (max-width: 480px){
+    body{
+        font-size: .8em;
+    }
+
+        body {
+        margin : 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgrey;
+        line-height: 1.5;
+    }
+    .page_title, #header_title{
+        margin-top: 130px;
+    }
+    #apple_logo{
+        display: none;
+    }
+    #header{
+            margin: 0px;
+    }
+    #banner{
+        display: none;
+    }
+    nav {
+            display:block;
+            background-color: whitesmoke;
+            margin: 0;
+            font-size: 1.3em;
+            padding: 15px 0px 15px 0px;
+            border: none;
+            text-align: center;
+            width: 100%;
+    }
+    .nav_item{
+        padding: 2px 5px 2px 5px;
+        margin: 0;
+    }
+    #container{
+            width : 75%;
+            max-width: 480px;
+            margin: 0 auto 0 auto;
+            padding: 15px 35px 15px 35px;
+            background-color: white;
+            height: 100%;
+    }
+    #about_content{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .responsive{
+                width:100%;
+                margin: 6px 0;
+    }
+    .rec_pics{
+        display: none;
+        width: 0%;
+    }
+    .recs{
+        width: 90%;
+        font-size: 1em;
+    }
+    #footer{
+        background-color: whitesmoke;
+        color:black;
+        display: inline-block;
+        font-size: 10px;
+        margin: auto;
+        padding: 7px 0;
+        text-align: center;
+        width: 100%;
+    }
+    #b1,#b2,#b3,#b4{
+        padding: 0px 10px 0px 10px;
+        margin: 0px;
+    }
+    .footer_icon{
+        width: 75%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .center_img, #ic_map_image{
+        display: none;
+    }
+    #ic_bus_info{
+        width: 90%;
+    }
+    .apple_pic {
+    float: left;
+    display: none;    
+}
+    .apple_descrip {
+    display: block;
+    width: inherit;
+    padding-left: 0px;
+    font-size:30px;
+    font-size: 1em;
+    }
+    #descrip{
+        font-size: 1em;
+    }
+    
+    /*apple page*/
+    .apple_pic {
+        align-content: center;
+        margin: inherit;
+        padding: 50px;
+    }
+
+    .apple_descrip {
+        display: block;
+        word-wrap: break-word;
+        padding-left: 0px;
+        font-size:20px;
+    }
+    .responsive{
+        width:85%;
+        margin: 6px 0;
+    }
+    
+    footer{
+        width:480px;
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+

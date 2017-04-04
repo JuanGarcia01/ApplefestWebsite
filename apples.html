@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Apple Harvest Festival</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <!--The following code was adapted from The jQuery Foundation's jQuery User Interface website (https://jqueryui.com/accordion/) and advised by TA Brandon Giraldo-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+        $( "#app_accordion" ).accordion();
+        } );
+    </script>
+    <!--End of advised code-->
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+<body>
+
+    <div id="header">
+         <div id="nav_bar">
+            <nav id="nav_b">
+                <a href="index.html" class="nav_item">Home Page</a>
+                <a href="information.html" class="nav_item">Information</a>
+                <a href="transportation.html" class="nav_item">Transportation</a>
+                <a href="recommendations.html" class="nav_item">Recommendations</a>
+                <a href="photo_gallery.html" class="nav_item">Photo Gallery</a>
+                <a href="apples.html" class="nav_item">Apples</a>
+            </nav> <!--end of nav--> 
+        </div>
+        <div id="banner">
+            <img id ="banner_img" src="images/banner.jpg" alt="apple fest banner">
+        </div>
+    </div>
+    <div id="container">
+        <h1 id="apples_title" class="page_title">The Apples of Apple Fest</h1>
+        
+        <div id="descrip">
+            <h2>Visitors to Apple Fest can expect to see a large variety of apples representing the full range of New York State apple production––from  tried and true classics like the Empire to the new and exciting Snapdragon. Here is a short guide to some of the delicious varients to look for at while you are at the festival:</h2>
+        </div>
+        <div id="app_accordion">
+            <h3>Empire</h3>
+            <div>
+                <img class="apple_pic" src="images/empire.png" alt="An Empire apple"> <!--Source: Michigan Apples,http://www.michiganapples.com/About/varieties-->
+                <p class="apple_descrip">A mix between McIntosh and Red Delicious, this classic apple was developed at Cornell in the 1940s. Expect sweet crispness with a tart bite. (Source: New York State Apple Country, http://www.nyapplecountry.com/varieties/9-empire) </p>
+            </div>
+            <h3>Cortland</h3>
+            <div>
+                <img class="apple_pic" src="images/cortland.png" alt="A Cortland apple"> <!--Source: Michigan Apples,http://www.michiganapples.com/About/varieties-->
+                <p class="apple_descrip">Tender, sweet, a little tart, and famous for its strikingly white flesh, this apple was developed in 1898 at New York State's Agriculural Experiment Station in Geneva. These apples are favorites for fruit plates since they are slow to brown. (Source: New York State Apple Country, http://www.nyapplecountry.com/varieties/7-cortland) </p>
+            </div>
+            <h3>Snapdragon </h3>
+            <div>
+                <img class="apple_pic" src="images/snapdragon.png" alt="A Snapdragon apple"> <!--Source: Food & Beverage Magazine, https://www.fb101.com/2014/10/new-york-apple-growers-partner-with-wegmans-to-introduce-snapdragon-apples-this-fall/-->
+                <p class="apple_descrip">This new variety of apple––developed at Cornell in 2013––has rapidly become a favorite thanks to its trademark crunch. Tracing its roots to the Honeycrisp, the Snapdragon is sweet and juicy with a sharp crunch. (Source: New York State Apple Country, http://www.nyapplecountry.com/varieties/25-snapdragon-new) </p>
+            </div>
+            <h3>Crispin (Mutsu)</h3>
+            <div>
+                <img class="apple_pic" src="images/crispin.png" alt="A Crispin apple"> <!--Source: New York State Apple Country, http://www.nyapplecountry.com/varieties/8-crispin-->
+                <p class="apple_descrip">Originally known as the Mutsu, this apple––developed in Japan––is ideal for baking, but can also be eaten straight for a sweet snack. (Source: New York State Apple Country, http://www.nyapplecountry.com/varieties/8-crispin)</p>
+            </div>
+            <h3>Fuji</h3>
+            <div>
+                <img class="apple_pic" src="images/fuji.png" alt="A Fuji apple"> <!--Source: Foley's Produce, https://foleysproduce.com/product/fuji-apples/-->
+                <p class="apple_descrip">A mainstay that's a mix between Ralls Janet and Red Delicious apples, the Fuji was developed in Japan. Expect sweetness, juciness, and crunchiness. (Source: New York State Apple Country, http://www.nyapplecountry.com/varieties/11-fuji)</p>
+            </div>
+            <h3>Jonagold</h3>
+            <div>
+                <img class="apple_pic" src="images/jonagold.png" alt="A Jonagold apple"> <!--Source: New York State Apple Country, http://www.nyapplecountry.com/varieties/17-jonagold-->
+                <p class="apple_descrip">This cross between the Jonathan and Golden Delicious also hails from Geneva's NY State Agricultural Experiment Station. This apple is not just a great snack, but is known for its lovely aroma when baked. (Source: New York State Apple Country, http://www.nyapplecountry.com/varieties/17-jonagold)</p>
+            </div>
+        </div>
+        
+            
+    </div>
+<div id="footer">
+		<a id="b1" href="https://twitter.com/downtownithaca"><img src="images/twitter_icon.png" alt="twitter_icon" class="footer_icon"><!--http://www.freeiconspng.com/icons/twitter-icon--></a>
+        <a id="b2"  href="https://www.facebook.com/events/985779458123403/"><img src="images/facebook.png" alt="twitter_icon" class="footer_icon"><!--http://www.iconarchive.com/tag/facebook--></a>
+        <a id="b3" href="http://www.youtube.com/downtownithaca"><img src="images/youtube.png" alt="youtube_icon" class="footer_icon"><!--http://www.veryicon.com/icons/application/ios7-style-metro-ui/metroui-youtube.html--></a>
+        <a id="b4" href="https://www.instagram.com/downtownithaca/"><img src="images/instagram_icon.png" alt="instagram icon" class="footer_icon"></a>
+        <!-- Source : https://www.instagram.com/downtownithaca/ -->
+        
+    </div>
+
+    
+</body> <!-- end of body-->
+</html>
